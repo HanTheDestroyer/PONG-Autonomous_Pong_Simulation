@@ -4,6 +4,8 @@ ModernGL Python code for self playing PONG game.
 ## Overview
 PONG: Autonomous Pong Simulation is designed to be completely autonomous. Utilizing the power of OpenGL through the ModernGL library in Python, this project showcases how basic shaders and rendering techniques can be leveraged for simple yet visually appealing simulations.
 
+Project mainly acts as my cheat sheet for various moderngl and numpy methods.
+
 
 https://github.com/user-attachments/assets/b16d0258-fbdd-44f0-ab1b-37a0e3821bec
 
