@@ -13,17 +13,17 @@ class PaddleManager:
         # LEFT Paddle.
         # Paddle position vertices for the left paddle.
         self.left_paddle_pos = np.array([-0.9, 0.0, -0.88, 0.0, -0.88, 0.4,
-                                               -0.9, 0.0, -0.9, 0.4, -0.88, 0.4], dtype='f4')
+                                         -0.9, 0.0, -0.9, 0.4, -0.88, 0.4], dtype='f4')
         # Color values for each vertex of the left paddle.
         self.left_paddle_color = np.array([1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0,
-                                                 0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0], dtype='f4')
+                                           0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0], dtype='f4')
         # RIGHT Paddle.
         # Paddle position vertices for the right paddle.
         self.right_paddle_pos = np.array([0.88, 0.0, 0.9, 0.0, 0.9, 0.4,
-                                                0.88, 0.0, 0.88, 0.4, 0.9, 0.4], dtype='f4')
+                                          0.88, 0.0, 0.88, 0.4, 0.9, 0.4], dtype='f4')
         # Color values for each vertex of the right paddle.
         self.right_paddle_color = np.array([1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0,
-                                                  0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0], dtype='f4')
+                                            0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0], dtype='f4')
 
         # Load Paddle Shaders.
         self.ctx = ctx  # ModernGL context.
