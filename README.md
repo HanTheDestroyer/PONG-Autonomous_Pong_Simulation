@@ -12,8 +12,11 @@ https://github.com/user-attachments/assets/b16d0258-fbdd-44f0-ab1b-37a0e3821bec
 
 ## Features
 Self-Playing: Both paddles are controlled by the logic, eliminating the need for user interaction.
+
 Glowing Ball Effect: The ball features a subtle glow effect using fragment shaders, giving it a modern, polished look.
+
 Efficient Rendering: Leveraging ModernGL for fast, GPU-based rendering.
+
 Easy Configuration: Centralized settings for easy adjustments and fine-tuning of game properties.
 
 ## Getting Started
