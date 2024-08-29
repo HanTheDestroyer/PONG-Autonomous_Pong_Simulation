@@ -41,7 +41,9 @@ Shaders may have a few magic numbers that may need modifications.
 
 ## Code Structure
 Pong_03.py: The main entry point. It needs to be run directly.
+
 Shaders: There are a few shaders that control glow or transformations. Shaders will be listed with more details below.
+
 Pong_Objects_03.py: Defines the ball, paddle and explosion particles as well as their behavior.
 
 ## Shaders
